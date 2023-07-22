@@ -63,7 +63,7 @@ char *get_next_line(int fd)
     static char *line;
     int i;
 
-    if (fd<0 || BUFFER_SIZE <= 0)
+    if (fd < 0 || BUFFER_SIZE <= 0)
         return 0;
 
     i = 1;
